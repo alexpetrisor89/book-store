@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
+//add a constant path here
 
 public class HomePage {
     WebDriver driver;
@@ -29,14 +30,13 @@ public class HomePage {
     }
 
     //Methods
-    public void AddTextToSearchBox(String args){
+    public void addTextToSearchBox(String args){
         searchBox.sendKeys(args);
-        Reporter.log("Book entered in SearchBox", true);
+
     }
 
     public void ClickOnSearchButton(){
         searchButtonClick.click();
-        Reporter.log("SearchBox button click", true);
     }
 
 }

@@ -11,11 +11,11 @@ public class Book_Store {
     String url="https://demoqa.com/books";
     @Test
     public void searchFor(){
-
+//in before test
         WebDriver driver = Browser_Setup.getDriver(url);
-
+//in before test
         HomePage obj = PageFactory.initElements(driver, HomePage.class);
-        obj.AddTextToSearchBox("git pocket guide");
+        obj.addTextToSearchBox("git pocket guide");
         obj.ClickOnSearchButton();
 
 

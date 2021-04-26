@@ -6,6 +6,8 @@ import org.testng.Reporter;
 
 public class Browser_Setup {
 
+
+    // use static
     public static WebDriver getDriver(String url)  {
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
