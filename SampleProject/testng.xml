@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/alex/NewAutomationProject/SampleProject/src/test/java/bookstoreonline/Book_Store_TC/Book_Store.java">
         <classes>
-            <class name="bookstoreonline.Book_Store_TC.Book_Store">
+            <class name="bookstoreonline.Book_Store_TC.Book_Store_TC">
                 <methods>
                     <include name="searchFor"/>
                 </methods>
