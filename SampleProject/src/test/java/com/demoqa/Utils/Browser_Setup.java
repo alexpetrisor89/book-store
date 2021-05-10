@@ -1,4 +1,4 @@
-package bookstoreonline.Book_Store_Utils;
+package com.demoqa.Utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +15,6 @@ public class Browser_Setup {
 
         driver.manage().window().maximize();
         driver.get(url);
-        Reporter.log("Navigated to URL"+url);
         return driver;
     }
 }

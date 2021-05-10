@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/alex/NewAutomationProject/SampleProject/src/test/java/bookstoreonline/Book_Store_TC/Book_Store.java">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/alex/NewAutomationProject/SampleProject/src/test/java/com/demoqa/TestCases/Book_Store_TC.java">
         <classes>
-            <class name="bookstoreonline.Book_Store_TC.Book_Store_TC">
+            <class name="com.demoqa.TestCases.Book_Store_TC">
                 <methods>
                     <include name="searchFor"/>
                 </methods>
