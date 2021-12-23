@@ -4,11 +4,8 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/alex/NewAutomationProject/SampleProject/src/test/java/com/demoqa/TestCases/Book_Store_TC.java">
         <classes>
-            <class name="com.demoqa.TestCases.Book_Store_TC">
-                <methods>
-                    <include name="searchFor"/>
-                </methods>
-            </class>
+            <!--<class name="com.demoqa.TestCases.BookStoreLoginTc"/>-->
+            <class name="com.demoqa.TestCases.BookStoreHomeTc"/>
         </classes>
     </test>
 </suite>
