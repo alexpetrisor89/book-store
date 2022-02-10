@@ -25,6 +25,12 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.30</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>4.0.0-alpha-7</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -35,6 +41,14 @@
                 <version>3.0.0-M5</version>
                 <configuration>
 
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
