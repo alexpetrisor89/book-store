@@ -1,6 +1,6 @@
 pipeline {
   parameters {
-    string defaultValue 'defaultValue', name 'testArg'
+    string defaultValue: 'defaultValue', name: 'testArg'
   }
   
   agent any
