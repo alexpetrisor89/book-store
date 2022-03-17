@@ -17,7 +17,7 @@ pipeline {
       stage('Execute shell'){
         
         agent{
-          label 'build-in'
+          label 'built-in'
         }
         
         steps {
