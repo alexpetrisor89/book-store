@@ -22,8 +22,8 @@ pipeline {
         
         steps {
           sh 'ls'
-          sh 'chmod +x testng.xml'
-          sh '.testng.xml'
+          sh 'chmod +x HelloWorld.sh'
+          sh '.HelloWorld.sh'
       }
     }
         stage('Clean WS'){
