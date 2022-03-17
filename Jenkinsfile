@@ -7,9 +7,8 @@ pipeline {
 
     stage {
 
-      stage('Hello')
-      {
-        steps{
+      stage('Hello') {
+        steps {
            echo 'Hello World'
            sh 'echo $(testArg)'
            sh 'echo "Added from github generator"'
@@ -21,7 +20,7 @@ pipeline {
           label 'build-in'
         }
         
-        steps{
+        steps {
           sh 'ls'
           sh 'chmod +x HelloWorld.sh'
           sh '.HelloWorld.sh'
@@ -29,8 +28,9 @@ pipeline {
     }
         stage('Clean WS'){
         steps{
-          cleanWS()
+          cleanWs()
         }
       }
     }
   }
+}
