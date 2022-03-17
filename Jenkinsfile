@@ -5,7 +5,7 @@ pipeline {
 
     agent any
 
-    stage {
+    stages {
 
       stage('Hello') {
         steps {
